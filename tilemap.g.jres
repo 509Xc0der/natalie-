@@ -31,6 +31,20 @@
         ],
         "displayName": "level2"
     },
+    "level3": {
+        "id": "level3",
+        "mimeType": "application/mkcd-tilemap",
+        "data": "MTAwNTAwMDYwMDAzMDQwNDA0MDQwMjAxMDEwMTAxMDAwMDAwMDAwMDA1MDAwMDAwMDAwNTAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMA==",
+        "tileset": [
+            "myTiles.transparency16",
+            "sprites.dungeon.purpleOuterSouth1",
+            "sprites.dungeon.purpleOuterSouthEast",
+            "sprites.dungeon.purpleOuterNorthWest",
+            "sprites.dungeon.purpleOuterNorth0",
+            "sprites.dungeon.stairLadder"
+        ],
+        "displayName": "level3"
+    },
     "*": {
         "mimeType": "image/x-mkcd-f4",
         "dataEncoding": "base64",
