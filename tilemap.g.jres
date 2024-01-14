@@ -93,18 +93,21 @@
     "level5": {
         "id": "level5",
         "mimeType": "application/mkcd-tilemap",
-        "data": "MTAwNTAwMDUwMDA3MDUwOTA1MDYwMzAxMDEwMTAyMDgwMTAxMDEwMjAzMDEwMTAxMDIwODAxMDQwMTAyMjIyMjIyMDAyMDAyMDAyMjAwMjAwMjAwMDI=",
+        "data": "MTAwNTAwMDYwMDA5MGEwMzBhMDYwNTAxMDEwMTBjMDUwMTAxMDEwYzA1MDEwMTAxMGMwNTAxMDIwMTBjMDgwYjA0MGIwNzIyMjAyMjAwMjAwMjAwMjIwMDIwMDIwMDIyMDIyMg==",
         "tileset": [
             "myTiles.transparency16",
             "sprites.dungeon.floorLight0",
-            "sprites.dungeon.purpleOuterEast0",
-            "sprites.dungeon.purpleOuterWest0",
             "sprites.dungeon.collectibleInsignia",
-            "sprites.dungeon.purpleOuterNorth1",
-            "sprites.dungeon.purpleOuterNorthEast",
-            "sprites.dungeon.purpleOuterNorthWest",
-            "sprites.dungeon.purpleOuterWest1",
-            "myTiles.tile6"
+            "myTiles.tile6",
+            "myTiles.tile2",
+            "sprites.dungeon.greenOuterWest1",
+            "sprites.dungeon.greenOuterNorthEast",
+            "sprites.dungeon.greenOuterSouthWest",
+            "sprites.dungeon.greenOuterSouthEast",
+            "sprites.dungeon.greenOuterNorthWest",
+            "sprites.dungeon.greenOuterNorth0",
+            "sprites.dungeon.greenOuterSouth0",
+            "sprites.dungeon.greenOuterEast0"
         ],
         "displayName": "level5"
     },
