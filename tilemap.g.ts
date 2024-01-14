@@ -8,6 +8,12 @@ namespace myTiles {
     export const tile2 = image.ofBuffer(hex``);
     //% fixedInstance jres blockIdentity=images._tile
     export const tile3 = image.ofBuffer(hex``);
+    //% fixedInstance jres blockIdentity=images._tile
+    export const tile4 = image.ofBuffer(hex``);
+    //% fixedInstance jres blockIdentity=images._tile
+    export const tile5 = image.ofBuffer(hex``);
+    //% fixedInstance jres blockIdentity=images._tile
+    export const tile7 = image.ofBuffer(hex``);
 
     helpers._registerFactory("tilemap", function(name: string) {
         switch(helpers.stringTrim(name)) {
@@ -87,6 +93,14 @@ namespace myTiles {
 . . . . . . . . . . . . . . . . 
 . . . . . . . . . . . . . . . . 
 `, [myTiles.transparency16], TileScale.Sixteen);
+            case "level5":
+            case "level5":return tiles.createTilemap(hex`06000500030303030303020202020202050202020201020202020202040404040404`, img`
+2 2 2 2 2 2 
+. . . . . . 
+. . . . . . 
+. . . . . . 
+2 2 2 2 2 2 
+`, [myTiles.transparency16,myTiles.tile2,sprites.dungeon.floorLight0,sprites.dungeon.purpleOuterNorth0,sprites.dungeon.purpleOuterSouth1,sprites.dungeon.stairLadder], TileScale.Sixteen);
         }
         return null;
     })
@@ -99,6 +113,10 @@ namespace myTiles {
             case "myTile0":
             case "tile2":return tile2;
             case "tile3":return tile3;
+            case "tile4":return tile4;
+            case "tile5":return tile5;
+            case "myTile2":
+            case "tile7":return tile7;
         }
         return null;
     })
