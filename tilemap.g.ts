@@ -46,7 +46,7 @@ namespace myTiles {
             case "level3":
             case "level3":return tiles.createTilemap(hex`05000600010101010104040505040204040406020404040604040404040303030303`, img`
 2 2 2 2 2 
-. . 2 2 . 
+. . . . . 
 . . . . . 
 . . . . . 
 . . . . . 
