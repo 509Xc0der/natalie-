@@ -1,6 +1,6 @@
 scene.onOverlapTile(SpriteKind.Player, assets.tile`myTile0`, function (sprite, location) {
     tiles.setCurrentTilemap(tilemap`level5`)
-    tiles.placeOnTile(sprite, tiles.getTileLocation(0, 2))
+    tiles.placeOnTile(sprite, tiles.getTileLocation(2, 4))
 })
 controller.up.onEvent(ControllerButtonEvent.Pressed, function () {
     animation.runImageAnimation(
