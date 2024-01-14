@@ -34,14 +34,15 @@
     "level3": {
         "id": "level3",
         "mimeType": "application/mkcd-tilemap",
-        "data": "MTAwNTAwMDYwMDAzMDQwNDA0MDQwMjAxMDEwMTAxMDAwMDAwMDAwMDA1MDAwMDAwMDAwNTAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMA==",
+        "data": "MTAwNTAwMDYwMDAxMDEwMTAxMDEwNDA0MDUwNTA0MDIwNDA0MDQwNjAyMDQwNDA0MDYwNDA0MDQwNDA0MDMwMzAzMDMwMzIyMjIwMjIwMDIwMDAwMDAwMDAwMDAwMDIwMjIyMg==",
         "tileset": [
             "myTiles.transparency16",
             "sprites.dungeon.purpleOuterSouth1",
-            "sprites.dungeon.purpleOuterSouthEast",
-            "sprites.dungeon.purpleOuterNorthWest",
-            "sprites.dungeon.purpleOuterNorth0",
-            "sprites.dungeon.stairLadder"
+            "sprites.dungeon.stairLadder",
+            "sprites.dungeon.purpleOuterNorth1",
+            "sprites.dungeon.floorLight0",
+            "sprites.dungeon.chestClosed",
+            "sprites.dungeon.collectibleInsignia"
         ],
         "displayName": "level3"
     },

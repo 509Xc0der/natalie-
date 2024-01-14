@@ -44,14 +44,14 @@ namespace myTiles {
 . . . . . . . . . . . . . . . . 
 `, [myTiles.transparency16,sprites.dungeon.darkGroundNorthWest0,sprites.dungeon.darkGroundNorth,sprites.dungeon.darkGroundNorthEast0,sprites.dungeon.darkGroundEast,sprites.dungeon.darkGroundWest,sprites.dungeon.darkGroundSouthWest0,sprites.dungeon.darkGroundSouthEast0,sprites.dungeon.darkGroundSouth,sprites.dungeon.darkGroundCenter], TileScale.Sixteen);
             case "level3":
-            case "level3":return tiles.createTilemap(hex`05000600030404040402010101010000000000050000000005000000000000000000`, img`
+            case "level3":return tiles.createTilemap(hex`05000600010101010104040505040204040406020404040604040404040303030303`, img`
+2 2 2 2 2 
+. . 2 2 . 
 . . . . . 
 . . . . . 
 . . . . . 
-. . . . . 
-. . . . . 
-. . . . . 
-`, [myTiles.transparency16,sprites.dungeon.purpleOuterSouth1,sprites.dungeon.purpleOuterSouthEast,sprites.dungeon.purpleOuterNorthWest,sprites.dungeon.purpleOuterNorth0,sprites.dungeon.stairLadder], TileScale.Sixteen);
+2 2 2 2 2 
+`, [myTiles.transparency16,sprites.dungeon.purpleOuterSouth1,sprites.dungeon.stairLadder,sprites.dungeon.purpleOuterNorth1,sprites.dungeon.floorLight0,sprites.dungeon.chestClosed,sprites.dungeon.collectibleInsignia], TileScale.Sixteen);
         }
         return null;
     })
