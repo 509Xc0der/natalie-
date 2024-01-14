@@ -120,6 +120,15 @@ controller.left.onEvent(ControllerButtonEvent.Pressed, function () {
     true
     )
 })
+scene.onOverlapTile(SpriteKind.Player, sprites.dungeon.chestClosed, function (sprite, location) {
+    let list: number[] = []
+    game.splash(list._pickRandom())
+    if (list.indexOf(1) == 0) {
+    	
+    } else {
+        game.splash("You Haven't Found The Basement Key Yet")
+    }
+})
 controller.right.onEvent(ControllerButtonEvent.Pressed, function () {
     animation.runImageAnimation(
     mySprite,
@@ -261,3 +270,4 @@ controller.moveSprite(mySprite)
 mySprite.setVelocity(5, 5)
 scene.cameraFollowSprite(mySprite)
 tiles.setCurrentTilemap(tilemap`level2`)
+let text_list = ["You Have Found The Basement Key", "You Have Found The Closet Key"]
